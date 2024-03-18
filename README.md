@@ -17,3 +17,5 @@ luego, lo corremos
 :docker run -d -p 8080:80 --name paymentsapi haylanpa/paymentsapi:v1
 
 NOTAS: en los ejemplos aparece mi usuario, el nombre que le dí a la imagen y el puerto para desplegar, modificar dichos parámetros a necesidad.
+En caso de que por alguna razón no levante la imagen de docker, el repo puede compilarse sin problemas.
+Es la primera vez que utilizo la herramienta, desconozco si hay formas más prácticas de compartir la imagen o si de hecho, esto funciona para compartirlo, ya que lo probé con mi propio usuario.
